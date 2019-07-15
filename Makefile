@@ -75,7 +75,7 @@ publish:
 	[ -e $(OUTPUTDIR)/.nojekyll ] || touch $(OUTPUTDIR)/.nojekyll
 	[ -e $(OUTPUTDIR)/CNAME ] || echo "radiance.video" > $(OUTPUTDIR)/CNAME
 
-github: publish
+ghp_upload: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH) --force
 
