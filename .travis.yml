@@ -1,0 +1,18 @@
+language: python
+dist: xenial
+
+python:
+- '3.5'
+
+before_install:
+- pip install -U pelican
+- pip install -U bs4
+- pip install -U Markdown
+- pip install -U Pillow
+- pip install -U ghp-import
+
+script:
+- echo -e "$DEPLOY_KEY" > deploy_key
+- chmod 600 deploy_key
+- "git remote set-url origin git@github.com:radiancevj/website.git"
+- GIT_SSH_COMMAND='ssh -i deploy_key' make ghp_upload
