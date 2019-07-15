@@ -1,2 +1,2 @@
-# radiancevj.github.io
-Radiance website
+# Radiance website
+[radiance.video](https://radiance.video)
