@@ -36,10 +36,11 @@ INDEX_SAVE_AS = "blog.html"
 THEME = "nest"
 NEST_HEADER_LOGO = "images/logo.png"
 
-NEST_INDEX_HEAD_TITLE = u'Radiance Blog'
-NEST_INDEX_HEADER_TITLE = u'Radiance Blog'
-NEST_INDEX_HEADER_SUBTITLE = u'Algebra, art, and software engineering'
-NEST_INDEX_CONTENT_TITLE = u'Latest Posts'
+NEST_INDEX_HEAD_TITLE = 'Radiance Blog'
+NEST_INDEX_HEADER_TITLE = 'Radiance Blog'
+NEST_INDEX_HEADER_SUBTITLE = 'Algebra, art, and software engineering'
+NEST_INDEX_CONTENT_TITLE = 'Latest Posts'
+NEST_HEADER_IMAGES = 'soupy_grid.jpg'
 
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
