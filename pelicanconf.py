@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 10
 INDEX_SAVE_AS = "blog.html"
 
 THEME = "nest"
-NEST_HEADER_LOGO = "images/logo.png"
+NEST_HEADER_LOGO = "/images/logo.png"
 
 NEST_INDEX_HEAD_TITLE = 'Radiance Blog'
 NEST_INDEX_HEADER_TITLE = 'Radiance Blog'
