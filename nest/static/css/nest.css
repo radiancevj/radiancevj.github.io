@@ -291,7 +291,7 @@ h4:after {
     border-right: 1px solid rgba(0,0,0,0.1);
 }
 
-.content img{
+.content img, .content video {
     border: 0;
     display: block;
     width: 100%;
@@ -439,4 +439,20 @@ blockquote{
 }
 .footer a{
     color: #fff;
+}
+
+.big {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.bigger {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;
 }

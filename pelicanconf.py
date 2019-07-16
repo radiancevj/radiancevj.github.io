@@ -46,5 +46,21 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
   ('Home','/'),
   ('Download','https://github.com/zbanks/radiance/releases'),
-  ('Blog','/blog.html'),
+  ('Github','https://github.com/zbanks/radiance'),
+  #('Blog','/blog.html'),
+)
+
+STATIC_PATHS = (
+    'videos/',
+    'images/',
+    'android-chrome-192x192.png',
+    'android-chrome-512x512.png',
+    'apple-touch-icon.png',
+    'browserconfig.xml',
+    'favicon-16x16.png',
+    'favicon-32x32.png',
+    'favicon.ico',
+    'mstile-150x150.png',
+    'safari-pinned-tab.svg',
+    'site.webmanifest',
 )
