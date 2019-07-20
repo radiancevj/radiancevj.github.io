@@ -46,6 +46,7 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (
   ('Home','/'),
   ('Download','https://github.com/zbanks/radiance/releases'),
+  ('Blog','/blog'),
   ('Github','https://github.com/zbanks/radiance'),
   #('Blog','/blog.html'),
 )

@@ -34,8 +34,10 @@
             <h2><a href="{{ SITEURL }}/{{ articles_page.url }}">{{ NEST_INDEX_CONTENT_TITLE }} {% if articles_page.has_previous() %}<small>- page {{ articles_page.number }}</small>{% endif %}</a></h2>
             <dl class="dl-horizontal">
                 {% for article in articles_page.object_list %}
-                <dt>{{ article.locale_date}}</dt>
-                <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                <div class="article-imgbox"{% if article.illustration %} style="background: url('{{ SITEURL }}/images/{{ article.illustration }}'); background-position: center; background-size: cover;"{% endif %}><div class="article-inner">
+                    <dt>{{ article.locale_date}}</dt>
+                    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                </div></div>
                 {% endfor %}
             </dl>
         </div>
@@ -47,8 +49,8 @@
             <h2><a href="{{ SITEURL }}/">{{ NEST_INDEX_CONTENT_TITLE }}</a></h2>
             <dl class="dl-horizontal">
                 {% for article in articles %}
-                <dt>{{ article.locale_date}}</dt>
-                <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+                    <dt>{{ article.locale_date}}</dt>
+                    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
                 {% endfor %}
             </dl>
         </div>
