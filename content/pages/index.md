@@ -12,7 +12,7 @@ Radiance is free and open source VJ software.
 <a href="https://github.com/zbanks/radiance/releases">Download for Linux or Mac</a>
 </div>
 
-<video autoplay loop>
+<video muted autoplay loop>
 <source src="videos/basic_usage.mp4" type="video/mp4">
 <source src="videos/basic_usage.webm" type="video/webm">
 </video>

@@ -71,18 +71,18 @@ a.more{
 /* Syntax Highlighting */
 
 pre, code {
-    background: #f8f7fa;
+    background: #000;
     padding: 34px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     font-family: Consolas, monaco, monospace;
     border-radius: 0px;
-    color: #4b505a;
+    color: #aaa;
     margin: 34px 0;
-    font-weight: 700; 
+    font-weight: 400; 
 }
 
-code { padding: 3px 6px; }
+code { padding: 3px 8px; }
 
 .linenos pre{
 	border:none;
@@ -234,7 +234,7 @@ h4:after {
 }
 .header-content {
     text-align: center;
-    padding: 25px 0 55px 0;
+    padding: 25px 14px 55px 14px;
 }
 .header-title {
     font-size: 28px;
