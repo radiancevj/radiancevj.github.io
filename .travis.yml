@@ -15,5 +15,4 @@ script:
 - echo -e "$DEPLOY_KEY" > deploy_key
 - chmod 600 deploy_key
 - "git remote set-url origin git@github.com:radiancevj/website.git"
-- "if [ $TRAVIS_BRANCH = 'master' ]; then GIT_SSH_COMMAND='ssh -i deploy_key' make ghp_upload"
-- "else make html; fi"
+- "if [ $TRAVIS_BRANCH = 'master' ]; then GIT_SSH_COMMAND='ssh -i deploy_key' make ghp_upload; else make html; fi"
