@@ -111,12 +111,12 @@ This wound up being powerful enough to demonstrate the potential of compositiona
 
 ![Radiance crossed with a DJ app]({attach}radiance-sdl.png)
 
-This version (version 5 I think?) was used to run the lights at the
+This version was used to run the lights at the
 2016 East Side party. Zach and I had both graduated, but were able to help
 a team of three undergrads set up the light show using the newly-renamed "Radiance."
 This was a real milestone because it was the first time our software
 had been used seriously by people who didn't develop it.
-It was also probably the best light show since the original one in 2012.
+It was also probably the first light show that outdid the original in 2012.
 
 <video muted autoplay loop>
 <source src="{attach}rush-2016.mp4" type="video/mp4">
@@ -152,3 +152,5 @@ but the featureset we have now is the culmination of seven years of
 parties, output hardware, making mistakes, and rewriting.
 
 ![Radiance controlling light strips at a wedding reception]({attach}wedding.jpg)
+
+![Radiance at Burning Man]({attach}mvp.jpg)
