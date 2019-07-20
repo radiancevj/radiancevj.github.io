@@ -58,19 +58,15 @@ This led to "[cursedlight](https://github.com/zbanks/cursedlight)"
 the third generation of light control software.
 It saw some use in a set at Steer Roast 2014.
 
-!()[]
+![Curse D'light]({attach}cursedlight.png)
 
-On the surface, it doesn't seem to bear much resemblance to
-Radiance today, but the mentality and aesthetic of livecoding lives on.
 Zach and I aren't artists, and of all the interfaces we had tried
 up to this point, a terminal was the most expressive for us.
 It definitely had its shortcomings, but helped to highlight what was missing.
-It also seems to be the first place where we used a planar canvas with
-LED strips mapped across it.
 
 ## Control Issues
 
-Version four is where Radiance finally started looking a little bit like how it does today.
+[Version four](https://github.com/ervanalb/beat-off) is where beat-off finally started looking a little bit like how Radiance does today.
 You can clearly the workflow of
 compositing a set of patterns,
 setting up a deck of patterns,
@@ -100,7 +96,7 @@ Up until this point, we hadn't been using any sort of graphics acceleration.
 The last version was pushing the limits of CPU rendering,
 so we decided to pull in OpenGL and write effects as shaders.
 
-This version was the first to have effects "chains", where an effect modifies the video coming into it.
+[This version](https://github.com/zbanks/radiance/tree/sdl-glsl-2016-09) was the first to have "effect chains", where a pattern modifies the video coming into it.
 The previous version simply alpha-composited effects; this version behaved more like function composition.
 It's also the first place you'll find the "one slider per pattern" paradigm.
 Both of these are key parts of Radiance today.

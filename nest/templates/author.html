@@ -18,7 +18,6 @@
                   <div class="header-content">
                       <h1 class="header-title text-uppercase">{{ author }}</h1>
                       <div class="header-underline"></div>
-                      <p class="header-subtitle header-subtitle-homepage">{{ NEST_AUTHOR_HEADER_SUBTITLE }}</p>
                   </div>
               </div>
         </div>
@@ -28,7 +27,7 @@
 {% block content %}
     <div class="archive-container">
         <div class="container content archive">
-            <h2><a href="{{ SITEURL }}/{{ author.url }}">{{ NEST_AUTHOR_CONTENT_TITLE }}</a></h2>
+            <h2><a href="{{ SITEURL }}/{{ author.url }}">Posts by {{ author }}</a></h2>
             <dl class="dl-horizontal">
             	{% for article in articles %}
             	<dt>{{ article.locale_date}}</dt>

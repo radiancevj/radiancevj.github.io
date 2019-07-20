@@ -65,3 +65,6 @@ STATIC_PATHS = (
     'safari-pinned-tab.svg',
     'site.webmanifest',
 )
+
+USE_FOLDER_AS_CATEGORY = False
+DISPLAY_CATEGORIES_ON_MENU = False
